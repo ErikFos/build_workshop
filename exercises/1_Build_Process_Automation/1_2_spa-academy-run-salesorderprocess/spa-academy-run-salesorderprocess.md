@@ -222,4 +222,4 @@ You have successfully built the Sales Order Approval Business process and it is 
 
 ## Next Step
 
-Start with the next exercise [**Create Destination to Trigger Process from any Service**](/exercises/2_Build_Apps/1_spa-create-service-instance-destination/spa-create-service-instance-destination.md)
+Start with the next exercise [**Create app in SAP Build App to trigger Process**](/exercises/2_Build_Apps/2_build-apps-workflow-trigger/build-apps-workflow-trigger.md)

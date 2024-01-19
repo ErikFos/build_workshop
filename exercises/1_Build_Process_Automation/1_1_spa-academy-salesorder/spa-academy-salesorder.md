@@ -38,11 +38,11 @@ There are many use cases where you can make a difference using SAP Build Process
 
 4. In the **Create a Business Process** dialog box, do the following:
 
-    - Enter a **Project Name** that starts with `Sales Orders Management`. In workshops, we recommend using the user initials, something like this: `Sales Orders Management - Aksel`.
+    - Enter a **Project Name** that starts with `Sales Orders Management`. In workshops, we recommend using the user initials, something like this: `Sales Orders Management - Aksel rules`.
 
         >Tip: Always use a name that would help users distinguish your workspace from others.
 
-    - Enter a **Short Description**: Sales Orders Management Project.
+    - Enter a **Short Description**: Sales Orders Management Project - Aksel.
 
          ![Project information](004.png)
 
@@ -86,6 +86,8 @@ A data type is an artifact describing a data structure that can be used as an in
 >You will use this data type later as part of the process content, but also in the exercise with SAP Build Apps, where you connect the process and the app.
 
 You have two options to create the fields in data type. You can either **[Import Excel File - Option 1](#Import-Excel-File---Option-1)** or **[Define Fields Manually - Option 2](#Define-Fields-Manually---Option-2)**.
+
+I would resommend you to try Option 2. Then you will get a better feel for how this is done in other user cases! 
 
 #### Import Excel File - Option 1
 
@@ -336,7 +338,7 @@ In this step, you will create and design a form which will be sent as notificati
    - Enter **Your order  has been approved**.
    - Then put your cursor between "order" and "has", and select **material** from the sales order details.
 
- In the **Recipients** section, enter your mail address.
+ In the **Recipients** section, enter your mail address (like zoltan.rules.the.world@hydro.com).
 
  >In this tutorial, to complete the process, you will play the dual role of Supplier and Seller. Hence, you would map your email ID in the Notification Form as well.
 
