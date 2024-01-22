@@ -2,7 +2,15 @@
 
 In this exercise, you will log on to Work Zone with your iPhone of iPad using the app called Mobile Start! 
 
-## Work on your tasks
+## Prerequisite
+- You have done all the steps before ths step 
+- You have a phone or ipad that is an Hydro enrolled device (we have tested this using iPhone and iPad, we have not tested this using Android... )
+
+
+
+
+
+
 
 1.	Open the app **Create Sales Order**
 <br>![](1.png)

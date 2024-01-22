@@ -2,9 +2,13 @@
 
 In this exercise, you will run the scenario end-to-end, including SAP Build Work Zone, SAP Build Apps and SAP Build Process Automation.
 
+## Prerequisites
+You have done all the steps in this tutorial including sharing your MTAR file with Meike. Once Meike let you know that your app is deployed, you can continue with this exercise. 
+
+
 ## Work on your tasks
 
-1.	Open the app **Create Sales Order**
+1.	Log on to Work Zone (using the link in the Outlook calendar invite) and open your app **Create Sales Order by bla bla bla something**
 <br>![](1.png)
 
 2. Maintain any data and select **Get Approval**.
@@ -21,13 +25,7 @@ In this exercise, you will run the scenario end-to-end, including SAP Build Work
 
 <br>![](4.png)
 
-## Summary
 
-Congratulations. You are now at the end of this exercise.
-In case you want to learn more, please use these tutorials: 
-- [SAP Build - a more advanced version of the exercises you have just done](https://developers.sap.com/mission.build-workshop-sales-order.html)
+Congratulations! You have now created a working app and workflow! This solution stop after the workflow step, but in a real world solution a process would be started in the underlying S/4HANA system (or any other SAP system....)
 
-- [SAP Build Process Automation](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build%2Fsap-build-process-automation)
-- [SAP Build Work Zone, advanced edition](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build%2Fsap-build-work-zone-advanced-edition)
-- [SAP Build Work Zone, standard edition](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build%2Fsap-build-work-zone-standard-edition)
-- [SAP Build Apps](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build%2Fsap-build-apps-enterprise-edition)
+Optional next execise: [Exercise 3.2 - Access Work Zone and run you app using Mobile Start](exercises/3_Build_Work_Zone/5_EndtoEndRun/Mobile.md)

@@ -32,7 +32,7 @@ After creating an app in SAP Build Apps, and after viewing the preview on the we
 
 5. Click **Build**.
 
-The build may take a a little while (20 minutes or so). Take a breath and have a break.
+The build may take a a little while (20 minutes or so). Take a breath and have a break. Walk over to Asbjørn (or ping him on Teams) and let him know he is a nice guy! 
 If you refresh the page, the status will change from `created` to `queued` to finally `delivered`.
 
 ![Build status](build3.png)
@@ -44,4 +44,4 @@ Before deploying, you must have a build showing as `delivered`.
 
 1. Click **Download**.
 
-    Save the MTAR file on your OneDrive sand share it with Meike Wietkamp <Meike.Wietkamp@hydro.com>. She will deploy you app and also add it to Work Zone so you can enjoy you delightful app! 
+    Save the MTAR file on your OneDrive and share it with Meike Wietkamp <Meike.Wietkamp@hydro.com>. She will deploy you app and also add it to Work Zone so you can enjoy you delightful app! 

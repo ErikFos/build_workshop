@@ -3,7 +3,7 @@
 <!-- description --> Trigger a process created in SAP Build Process Automation from an app created with SAP build Apps.
 
 ## Prerequisites
-- You set up SAP Process Automation, and created the process as described in the exercise section before.
+- You have already created the process as described in the exercise section before.
 - You know the `definitionId` for the process you created.
   
 ## You will learn
@@ -99,6 +99,7 @@ This is known as creating the user interface, also known as the UI.
 >
 >- You can instead do the second one, **[Import Project](#option-2---import-project)**, which will bypass the nitty gritty of adding and stylizing components, and instead teach you how to import an SAP Build Apps project into an existing project. This way is much faster.
  
+I would recommend you to try out option 1 to get an understanding of how to build a very basic app!  
 
 ### Option 1 - Basic steps
 
@@ -106,11 +107,11 @@ This is known as creating the user interface, also known as the UI.
 
     ![Delete text](UI-delete-text.png)
 
-2. Click on an open area (this brings up the **Properties** tab for the app instead of for a specific component), and in the **Properties** tab, change the **Page name** to `Create Sales Order`.
+2. Click on an open area (this brings up the **Properties** tab for the app instead of for a specific component), and in the **Properties** tab, change the **Page name** to ex.  `Create Sales Order by Nadine`.
 
     ![Page name](UI-page-name.png)
 
-3. Click the title field, and in the **Properties** tab change the **Content** text to `Sales Order Workflow`.
+3. Click the title field, and in the **Properties** tab change the **Content** text to ex. `Sales Order Workflow by Nadine`.
 
     ![Title](UI-title.png)
 
@@ -195,7 +196,7 @@ This is known as creating the user interface, also known as the UI.
 
     In the **Style** tab, next to **Primary Button**, click the dropdown button and select **Edit**.
 
-    For **Background color**, change the color `Brand` to `Highlight`.
+    For **Background color**, change the color `Brand` to `Highlight` (or some other funkalicious color that reflect your mood today!). 
 
 9.  Click **Save** (upper right).
 
@@ -575,7 +576,7 @@ We need to set up the logic so when someone clicks the **Get Approval** button (
 
 
 
-### Run app
+### Test run the app
 1. Click the **Launch** tab, and then **Open Preview Portal**.
 
     ![Launch](launch.png)
@@ -616,4 +617,4 @@ Go to the **Monitoring** tab, then **Monitor > Process and Workflow Instances**.
 
 
 ### Next Step
-Move on with the next step to [deploy the app created with SAP Build Apps to SAP BTP](/exercises/2_Build_Apps/3_build-apps-deploy/build-apps-deply.md).
+Move on with the next step to [Deploy the app created with SAP Build Apps to SAP BTP](/exercises/2_Build_Apps/3_build-apps-deploy/build-apps-deply.md).
