@@ -22,7 +22,7 @@ Releasing a project creates a version or snapshot of the changes and deploying t
 
 1. In the Process Builder, to release a project, click  **Release** button on the top-right corner of the screen and provide a description in the popup dialog.
 
-    ![released](1.png)
+    ![released](ReleaseProcess.png)
 
     > Versions have x.y.z format where x is a major version number, y is minor and z is the patch number. Every time you release, a new version will be created. The version is incremented automatically based on how you want to store the changes in the repository like major or minor update or just as a patch.
 
@@ -103,7 +103,7 @@ Once you have successfully deployed the business process with an API trigger, yo
 
     `definitionId` of the process can be seen in Monitor section or in the API trigger section as shown in the above step.
 
-    - From the **SAP Build lobby** navigate to **Monitoring** in the menu on the left hand side and access **Manage** > **Processes and Workflows**.
+    - Open the **SAP Build lobby** by clicking on the SAP Logo on the top left corner. From the **SAP Build lobby** navigate to **Monitoring** in the menu on the left hand side and access **Manage** > **Processes and Workflows**.
     
     ![Run](4.2.png)
 
