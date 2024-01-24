@@ -60,10 +60,11 @@ Once you have successfully created a Business Process Project, you will create a
 
 2. In the **Create Process** dialog box, provide the following:
 
-    - Enter a **Name**: Order Processing.
+    - Enter a **Name**: Order Processing ``<User Initials>``.
     - Enter a **Description** for your process: A process to handle sales orders.
     - Choose **Create**.
 
+     Please make sure to add your initials to the process name to make it easier to differentiate all processes from all participants later. 
 
     > Inside a project, you can create a process. This process is equivalent to a workflow in any business scenario. You can create this process from different skills such as forms, decisions, automations.
 
@@ -189,7 +190,7 @@ The inputs and outputs are configured for the API trigger and these inputs can t
 
 1.  Back on your Order Processing process page, in the process builder canvas, click on **+** > **API** > **New API Trigger**.
 
-    ![New API Trigger](7.png)
+    ![New API Trigger](StartProcess.png)
 
 
 2.  Enter the name as **Sales Order Trigger**. The identifier is generated based on the name.
@@ -199,7 +200,7 @@ The inputs and outputs are configured for the API trigger and these inputs can t
 
 3.  Click on the process canvas and in the **Process Details** choose **Variables**. Then choose **Configure** to configure inputs.
 
-     ![Inputs](7.2.png)
+     ![Inputs](ConfigureProcessVariables.png)
 
 4.  In the **Configure Process Inputs** window, choose **Add Input** to add parameters.
 
@@ -223,7 +224,7 @@ The inputs and outputs are configured for the API trigger and these inputs can t
 
     >These input fields will be mapped to fields in SAP Build Apps.
 
-     ![Add Inputs](7.31.png)
+     ![Add Inputs](SalesOrderTriggerOutputs.png)
 
 ### Create and configure Approval Form
 
@@ -240,9 +241,9 @@ You can create interactive forms in SAP Build Process Automation. Forms can be u
 
 Navigate back to the Process Builder canvas to create an Approval Form.
 
-1. Click on **+** > **Approvals** > **New Approval Form**.
-
-     ![New Approval Form](8.png)
+1. Click on **+** > **Approval** > **Create a New Approval** > **Blank** .
+     ![New Approval Form](ApprovalForm.png)
+     ![New Approval Form](CreateNewApproval.png)
 
 2. Enter the name as **Approval Form**.
 
@@ -250,9 +251,9 @@ Navigate back to the Process Builder canvas to create an Approval Form.
 
      ![Approval Form](8.1.png)
 
-4. Click on **Edit form**.
+4. Click on **Open Editor*.
 
-     ![Edit form](8.3.png)
+     ![Edit form](OpenEditorApproval.png)
 
 5. Design the form by dragging and dropping the corresponding form elements as shown below.
 
@@ -278,12 +279,12 @@ Navigate back to the Process Builder canvas to create an Approval Form.
     - Enter **Please review**.
     - Select **Material** from the sales order details.
 
-    ![8.5](8.5.png)
+    ![8.5](ApprovalFormSubject.png)
 
 8. In the **Recipients** section, enter your own mail address (like aksel.bad.ass@hydro.com).
     > Don't copy and paste the email ID. Enter the email ID manually.
 
-     ![8.5](8.41.png)
+     ![8.5](ApprovalFormEmail.png)
     
     
 
@@ -302,7 +303,7 @@ In this step, you will create and design a form which will be sent as notificati
 
 1. Click on **+** > **Forms** > **New Form**.
 
-     ![New form](9.png)
+     ![New form](addForm.png)
 
 2. Enter the name as **Order Confirmation Form**.
 
@@ -310,9 +311,9 @@ In this step, you will create and design a form which will be sent as notificati
 
      ![Order confirmation form](9.1.png)
 
-4. Click on **Edit form**.
+4. Click on **Open Editor**.
 
-     ![9.2](9.2.png)
+     ![9.2](OpenEditorConfirmationForm.png)
 
 5. Design the form by dragging and dropping the corresponding Form elements as shown below.
 
@@ -342,11 +343,11 @@ In this step, you will create and design a form which will be sent as notificati
 
  >In this tutorial, to complete the process, you will play the dual role of Supplier and Seller. Hence, you would map your email ID in the Notification Form as well.
 
-   ![9.4](9.4.png)
+   ![9.4](OrderConfirmationFormSubject.png)
 
 8. Configure the inputs of **Order Confirmation Form**. Navigate to Inputs and map the fields accordingly. **Save** your work.
 
-     ![9.5](9.5.png)
+     ![9.5](OrderConfirmationFormInputs.png)
 
 
 
@@ -362,13 +363,13 @@ There are several ways to accelerate the process design. You will now use the fu
 
     ![OR2](OR2.png)
 
-3. Go back to your process in the process editor. At the **Approval Form** select the **+** icon at the **Reject** output, in the context menu select **Forms** and select the newly created or, in fact, duplicated **Order Rejection Form**.
+3. Go back to your process in the process editor. At the **Approval Form** select the **+** icon at the **Reject** output, in the context menu select **Form** and select the newly created or, in fact, duplicated **Order Rejection Form**.
 
-    ![OR3](OR3.png)
+    ![OR3](AddOrderRejectionForm.png)
 
-4. Select **Order Rejection Form** and open **Edit Form** to adapt this duplicated form.
+4. Select **Order Rejection Form** and open **Open Editor** to adapt this duplicated form.
 
-    ![OR4](OR4.png)
+    ![OR4](OrderRejectionFormOpenEditor.png)
 
 5. You just need to adapt the following items
 
@@ -390,9 +391,7 @@ All the other fields remain unchanged. That was quick. **Save** your work.
 
    ![OR7](OR7.png)
 
-8. Finally connect the outgoing flow of the **Order Rejection Form** with the **End** step. **Save** your work.
 
-   ![OR8](OR8.png)
 
 >It would also be possible to create a mail task for such notifications, as described in this [tutorial](https://developers.sap.com/tutorials/spa-add-email-notification.html) (probably you want to take a look at this later).
 
@@ -405,13 +404,14 @@ Once the process with forms is designed, define which process flow should run ba
 In this step, you will add a condition where the sales order goes for supplier approval if the order amount is greater than 100, else the sales order is approved automatically.
 
 
-1. To add a condition to a process open the Process Builder. Choose **+** next to the Trigger. Select **Controls** then **Condition**.
+1. To add a condition to a process open the Process Builder. Choose **+** next to the Trigger. Select **Controls and Events** then **Condition**.
 
-     ![Process Condition](11.png)
+     ![Process Condition](AddConditionStart.png)
+     ![Select Condition](SelectCondition.png)
 
 2. To configure the condition, choose **Open Condition Editor** in the menu underneath "Branch Conditions".
 
-     ![Process Condition](11.1.png)
+     ![Process Condition](OpenEditorCondition.png)
 
     > Process content will contain a list of attributes that have been defined in previous skills. For example: in the screenshot, you can see attributes from the API trigger. You will use this process content to configure different skills during business process modelling.
 
@@ -451,9 +451,9 @@ All other fields can remain unchanged.
 
 4. **Save** your work.
 
-5. Go back to the process and add the auto approval form to the **Default** node.
+5. Go back to the process and add the auto approval form to the **Default** node. Click on the **+** icon below **Default** and select **Form**>**Available Forms**>**Auto Approval Notification**
 
-     ![Auto Approval](autoapproval_3.png)
+     ![Auto Approval](AutoApprovalFormAdd.png)
 
 6. Configure the **General** section.
    
@@ -476,13 +476,13 @@ All other fields can remain unchanged.
     | Order Amount | `orderAmount`
     | Expected Delivery Date | `expectedDeliveryDate`
 
-     ![Auto Approval](11.8.png)
+     ![Auto Approval](EditAutoApprovalNotificationInputs.png)
 
 8.  Click on **Save**.
    
-9.  Connect the outgoing flow of the **Auto Approval Notification form** to the **End** activity.
+9.  Connect the outgoing flow of the **Auto Approval Notification form** to the **End** activity by clicking on the **+** icon and select **Controls and Events**>**End**
 
-     ![Auto Approval](11.10.png)
+     ![Auto Approval](SelectEnd.png)
 
 ### Save the project    
 
@@ -490,7 +490,7 @@ All other fields can remain unchanged.
 
 Once you have successfully completed the project, your final process looks as below.
 
- ![Final Process](FinalProcess.png)
+ ![Final Process](ConnectAutoApprovalWithEnd.png)
 
  This completes the process design with condition criteria that will decide which process flow is executed and whether there will be an auto-approval or a one-step approval route.
 
