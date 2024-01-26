@@ -251,7 +251,7 @@ Navigate back to the Process Builder canvas to create an Approval Form.
 
      ![Approval Form](8.1.png)
 
-4. Click on **Open Editor*.
+4. Click on **Open Editor**.
 
      ![Edit form](OpenEditorApproval.png)
 
