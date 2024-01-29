@@ -189,7 +189,7 @@ In this option you will be defining each field with field name and type of field
 The process can be triggered with a form, by an event or using an API trigger. Since you are integrating a Sales Order Approval Process with SAP Build Apps, you will create an API trigger for the process. 
 The inputs and outputs are configured for the API trigger and these inputs can then be used as input fields in your process, for example, in a form or approval form.
 
-1.  Back on your Order Processing process page, in the process builder canvas, click on **+** > **API** > **New API Trigger**.
+1.  Back on your Order Processing process page, in the process builder canvas, click on **Add a Trigger** > **Call an API** .
 
     ![New API Trigger](StartProcess.png)
 
