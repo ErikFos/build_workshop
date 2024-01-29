@@ -201,6 +201,8 @@ The inputs and outputs are configured for the API trigger and these inputs can t
 
 3.  Click on the process canvas and in the **Process Details** choose **Variables**. Then choose **Configure** to configure inputs.
 
+     ![Click here](ProcessDetails.png)
+
      ![Inputs](ConfigureProcessVariables.png)
 
 4.  In the **Configure Process Inputs** window, choose **Add Input** to add parameters.
