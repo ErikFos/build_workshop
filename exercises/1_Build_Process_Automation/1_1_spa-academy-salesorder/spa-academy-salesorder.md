@@ -76,7 +76,7 @@ Once you have successfully created a Business Process Project, you will create a
 
      This is a visual canvas on which you map out your business process from start to finish. Other process artifacts are then added to this canvas, with process controls and connectors used to decide how information flows when the process is running.
 
-(Canvas4.png)
+    ![View canvas](Canvas4.png)
 
 In the next step, you will create a data type which would be used to integrate with SAP Build Apps and SAP Build Process Automation.   
 
