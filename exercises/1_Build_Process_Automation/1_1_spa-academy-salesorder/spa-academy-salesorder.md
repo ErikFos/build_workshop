@@ -19,7 +19,7 @@ There are many use cases where you can make a difference using SAP Build Process
 ### Create a business process project
 
 
-1. In the **Lobby**, choose **Create**.
+1. In the **Lobby**, choose **Create**. You have gotten the link to the Lobby in the mail invite for the workshop.  
 
     > The lobby is a central page for creating, accessing, and managing your projects in SAP Build. You can access business application processes, company configured templates, and other resources for your end-to-end business process.
 
