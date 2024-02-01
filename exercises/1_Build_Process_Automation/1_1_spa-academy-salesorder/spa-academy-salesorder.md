@@ -304,7 +304,7 @@ Navigate back to the Process Builder canvas to create an Approval Form.
 In this step, you will create and design a form which will be sent as notification to the seller if the Sales order is approved. Upon the execution of the process, this notification form will be available in My Inbox which will be covered in the later part of the exercise.
 
 
-1. Click on **+** > **Forms** > **New Form**.
+1. Click on **+** below the green "Approve" sign > **Forms** > **Blank Form**.
 
      ![New form](addForm.png)
 
@@ -366,7 +366,7 @@ There are several ways to accelerate the process design. You will now use the fu
 
     ![OR2](OR2.png)
 
-3. Go back to your process in the process editor. At the **Approval Form** select the **+** icon at the **Reject** output, in the context menu select **Form** and select the newly created or, in fact, duplicated **Order Rejection Form**.
+3. Go back to your process in the process editor. Below the **Approval Form** select the **+** icon at the **Reject** output, in the context menu select **Form** and select the newly created or, in fact, duplicated **Order Rejection Form**.
 
     ![OR3](AddOrderRejectionForm.png)
 
@@ -407,7 +407,7 @@ Once the process with forms is designed, define which process flow should run ba
 In this step, you will add a condition where the sales order goes for supplier approval if the order amount is greater than 100, else the sales order is approved automatically.
 
 
-1. To add a condition to a process open the Process Builder. Choose **+** next to the Trigger. Select **Controls and Events** then **Condition**.
+1. To add a condition to a process open the Process Builder. Choose **+** below the Trigger. Select **Controls and Events** then **Condition**.
 
      ![Process Condition](AddConditionStart.png)
      ![Select Condition](SelectCondition.png)
