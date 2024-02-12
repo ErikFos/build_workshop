@@ -28,4 +28,4 @@ You have done all the steps in this tutorial including sharing your MTAR file wi
 
 Congratulations! You have now created a working app and workflow! This solution stop after the workflow step, but in a real world solution a process would be started in the underlying S/4HANA system (or any other SAP system....)
 
-Optional next execise: [Exercise 3.2 - Access Work Zone and run you app using Mobile Start](exercises/3_Build_Work_Zone/5_EndtoEndRun/Mobile.md)
+Optional next execise: [Exercise 3.2 - Access Work Zone and run you app using Mobile Start](Mobile.md)
